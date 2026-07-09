@@ -36,5 +36,12 @@
   /*VARIABLES*/
 
   --outline-width: 1px;
-  --page-padding: 100px;
+
+  /* Antes era un valor fijo de 100px, lo que causaba que en pantallas
+     chicas el padding se comiera casi todo el ancho disponible y el
+     contenido se viera descuadrado. Con clamp() el navegador elige
+     un valor entre 20px (mínimo, en mobile) y 100px (máximo, en desktop),
+     escalando según el ancho de la ventana (6vw). Así el margen queda
+     siempre igual a ambos lados, en cualquier tamaño de pantalla. */
+  --page-padding: clamp(20px, 6vw, 100px);
 }
