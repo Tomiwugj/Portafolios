@@ -210,32 +210,22 @@ body{
 @media (max-width:768px){
 
     .hero{
-
         flex-direction:column;
-
         align-items:flex-start;
-
         padding:40px var(--page-padding);
     }
 
     .imagen1laptop{
-
         width:350px;
-
         align-self:center;
-
         margin-top:24px;
     }
-    @media (max-width:768px){
 
-        .hero{
-    
-            flex-direction:column;
-    
-            align-items:flex-start;
-    
-            padding:40px var(--page-padding);
-        }
+    .hero__habilidades{
+        grid-template-columns:repeat(2,1fr);
+        gap:24px;
+    }
+}
     
         .imagen1laptop{
     
