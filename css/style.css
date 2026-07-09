@@ -419,25 +419,20 @@ body{
 /* TEXTO */
 
 .experiencia__card h3{
-
     display:flex;
-
     align-items:center;
-
     gap:12px;
-
     color:var(--color-white);
+    min-width:0;
+    flex-wrap:wrap;
 }
 
 .experiencia__card h3 img{
-
     width:100px;
-
     height:100px;
-
     object-fit:contain;
-
     flex-shrink:0;
+    min-width:0;
 }
 
 .experiencia__card p{
