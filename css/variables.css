@@ -1,0 +1,40 @@
+:root {
+
+  /* =========================
+     COLORS
+  ========================= */
+
+  --color-black: #000000;
+  --color-gray-950: #0a0a0a;
+  --color-gray-900: #171717;
+  --color-gray-800: #262626;
+  --color-gray-700: #404040;
+  --color-gray-600: #525252;
+  --color-gray-500: #737373;
+  --color-gray-400: #a3a3a3;
+  --color-gray-300: #d4d4d4;
+  --color-gray-200: #e5e5e5;
+  --color-gray-100: #f5f5f5;
+  --color-gray-50: #fafafa;
+  --color-white: #ffffff;
+  --color-error-500: #ef4444;
+
+
+  /* =========================
+     SPACING
+  ========================= */
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+
+  /*VARIABLES*/
+
+  --outline-width: 1px;
+  --page-padding: 100px;
+}
